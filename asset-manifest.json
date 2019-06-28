@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/latinFoodApp/static/css/main.a90c25ab.chunk.css",
+    "main.js": "/latinFoodApp/static/js/main.4de23c12.chunk.js",
+    "main.js.map": "/latinFoodApp/static/js/main.4de23c12.chunk.js.map",
+    "runtime~main.js": "/latinFoodApp/static/js/runtime~main.4cd6ca4d.js",
+    "runtime~main.js.map": "/latinFoodApp/static/js/runtime~main.4cd6ca4d.js.map",
+    "static/js/2.6b1cc622.chunk.js": "/latinFoodApp/static/js/2.6b1cc622.chunk.js",
+    "static/js/2.6b1cc622.chunk.js.map": "/latinFoodApp/static/js/2.6b1cc622.chunk.js.map",
+    "index.html": "/latinFoodApp/index.html",
+    "precache-manifest.036d247e14f00a120439ba291119fd34.js": "/latinFoodApp/precache-manifest.036d247e14f00a120439ba291119fd34.js",
+    "service-worker.js": "/latinFoodApp/service-worker.js",
+    "static/css/main.a90c25ab.chunk.css.map": "/latinFoodApp/static/css/main.a90c25ab.chunk.css.map"
+  }
+}
