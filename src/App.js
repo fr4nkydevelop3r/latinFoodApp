@@ -512,8 +512,6 @@ class DishesList extends React.Component{
 
   render(){
     
-    console.log(this.props.kindOfFood);
-
     const dishesList = cloneDishes.filter( dish => dish.nationality.toLowerCase() === this.props.kindOfFood.toLowerCase()).map((dish) => (
     
       
