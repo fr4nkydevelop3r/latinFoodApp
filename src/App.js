@@ -155,7 +155,7 @@ class DashboardFood extends React.Component{
   state ={
     total : 0,
     isOpenFoodList : true,
-    isOpenDishesDashboard : false,
+    isOpenDishesDashboard : true,
     kindOfFood : dishesNationalities[0],
     viewOrderButton : true,
     viewOrder : false
@@ -164,7 +164,7 @@ class DashboardFood extends React.Component{
   handleOpenViews = (kindFood) => {
     this.setState(
       {
-        isOpenFoodList:false, 
+        isOpenFoodList:true, 
         isOpenDishesDashboard:true,
         kindOfFood : kindFood
       });
@@ -222,12 +222,12 @@ class DashboardFood extends React.Component{
     this.setState({
       viewOrder: false,
       isOpenFoodList: true,
-      viewOrderButton: true    
+      viewOrderButton: true,
+      isOpenDishesDashboard: true    
     });
   }
 
   handleUpdateTotal = (ammount) => {
-    console.log(ammount); 
     this.setState({
       total : this.state.total - ammount
     });
@@ -312,7 +312,6 @@ class Order extends React.Component{
       if(cloneDishes[i].id === id){
         
         let cantidad = cloneDishes[i].price * cloneDishes[i].ordered;
-        console.log(cantidad);
         cloneDishes[i].ordered = 0;
         this.props.handleUpdateTotal(cantidad)
 
@@ -450,9 +449,9 @@ class FoodsList extends React.Component{
 class Food extends React.Component{
   
   handleOpenFoodList = () => {
-    this.props.openFoodList({
-      title : this.props.title
-    });
+    this.props.openFoodList(
+      this.props.title
+    );
   }
   
   render(){
@@ -489,28 +488,19 @@ class DishesDashboard extends React.Component{
             decrementTotal={this.props.decrementTotal}
             dishesCountries={this.props.decrementTotal} 
           />
-          <div>
-            <button                    
-              onClick={this.handleCloseDishesDashboard}
-            >
-              Atras
-            </button>
-          </div>
+         
           
         </div>
       );
-    } else {
+    } else{
       return(
         <div></div>
       );
     }
+  } 
     
-
-    
-
-    
-  }
 }
+
 
 
 
@@ -522,11 +512,12 @@ class DishesList extends React.Component{
 
   render(){
     
-    const dishesList = cloneDishes.filter( dish => dish.nationality.toLowerCase() === this.props.kindOfFood.title.toLowerCase() ).map((dish) => (
+    console.log(this.props.kindOfFood);
+
+    const dishesList = cloneDishes.filter( dish => dish.nationality.toLowerCase() === this.props.kindOfFood.toLowerCase()).map((dish) => (
     
       
-
-      <Dish 
+    <Dish 
       id={dish.id}
       key={uuidv4()}
       nationality={dish.nationality}
