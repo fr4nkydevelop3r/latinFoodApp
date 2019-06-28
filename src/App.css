@@ -1,0 +1,16 @@
+.foodListContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.foodContainer{
+  padding: 32px;
+  border: 2px solid black;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
