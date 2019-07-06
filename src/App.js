@@ -12,27 +12,58 @@ const dishes = [
   {       
     id: uuidv4(),
     nationality : 'mexican',
-    name : 'enchiladas',
-    description : 'Tortillas con mole poblano, pollo, crema y queso',
+    name : 'Enchiladas verdes',
+    description : 'Sauced with salsa verde  made with white corn tortillas, filled with poached chicken.',
     price : 10,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/mexican/enchiladas.jpg'  
   },
     
   {
     id: uuidv4(),
     nationality : 'mexican',
-    name : 'pozole',
-    description : 'Maiz pozolero en un caldo picante con carne de puerco, oregano, cebolla y tostadas',
+    name : 'Pozole',
+    description : 'Soup made with pork, hominy, and red chiles.',
     price : 12,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/mexican/pozole.jpg'  
   },
   {
     id: uuidv4(),
     nationality : 'mexican',
-    name : 'Tacos dorados de pollo',
-    description : 'Tortilla dorada con pollo, lechuga, jitomate y salsa',
+    name : 'Quesadillas de papa',
+    description : 'Crispy fried tacos filled with seasoned mashed potato.',
     price : 10,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/mexican/tacos-dorados.jpg'  
+  },
+  {       
+    id: uuidv4(),
+    nationality : 'mexican',
+    name : 'Enchiladas verdes',
+    description : 'Sauced with salsa verde  made with white corn tortillas, filled with poached chicken.',
+    price : 10,
+    ordered : 0,
+    imageUrl : '../images/dishes/mexican/enchiladas.jpg'  
+  },
+    
+  {
+    id: uuidv4(),
+    nationality : 'mexican',
+    name : 'Pozole',
+    description : 'Soup made with pork, hominy, and red chiles.',
+    price : 12,
+    ordered : 0,
+    imageUrl : '../images/dishes/mexican/pozole.jpg'  
+  },
+  {
+    id: uuidv4(),
+    nationality : 'mexican',
+    name : 'Quesadillas de papa',
+    description : 'Crispy fried tacos filled with seasoned mashed potato.',
+    price : 10,
+    ordered : 0,
+    imageUrl : '../images/dishes/mexican/tacos-dorados.jpg'  
   },
   {
     id: uuidv4(),
@@ -40,7 +71,8 @@ const dishes = [
     name : 'Pernil',
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     price : 10,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/dominican/pernil.jpg'  
   },
   {
     id: uuidv4(),
@@ -48,7 +80,8 @@ const dishes = [
     name : 'Estofado de mariscos',
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     price : 12,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/dominican/estofado-de-mariscos.jpg'  
   },
   {
     id: uuidv4(),
@@ -56,7 +89,8 @@ const dishes = [
     name : 'Moro',
     description : 'Lorem ipsum dolor sit amet',
     price : 10,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/dominican/moro.jpg'  
   },
   {
     id: uuidv4(),
@@ -64,7 +98,8 @@ const dishes = [
     name : 'Ceviche',
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     price : 10,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/ecuatorian/ceviche.jpeg'  
   },
   {
     id: uuidv4(),
@@ -72,7 +107,8 @@ const dishes = [
     name : 'Llapingachos',
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     price : 12,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/ecuatorian/llapingachos.jpg'  
   },
   {
     id: uuidv4(),
@@ -80,7 +116,8 @@ const dishes = [
     name : 'Uchumanga',
     description : 'Lorem ipsum dolor sit amet',
     price : 10,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/ecuatorian/uchumanga.jpg'  
   },
   {
     id: uuidv4(),
@@ -88,7 +125,8 @@ const dishes = [
     name : 'Lomo saltado',
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     price : 10,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/peruvian/lomo-saltado.jpg'  
   },
   {
     id: uuidv4(),
@@ -96,7 +134,8 @@ const dishes = [
     name : 'Rocoto relleno',
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     price : 12,
-    ordered : 0  
+    ordered : 0,
+    imageUrl : '../images/dishes/peruvian/rocoto-relleno.jpeg'  
   },
   {
     id: uuidv4(),
@@ -104,7 +143,8 @@ const dishes = [
     name : 'Aji de gallina',
     description : 'Lorem ipsum dolor sit amet',
     price : 10,
-    ordered : 0
+    ordered : 0,
+    imageUrl : '../images/dishes/peruvian/aji-de-gallina.jpg'
   },
   {
     id: uuidv4(),
@@ -112,7 +152,8 @@ const dishes = [
     name : 'Bandeja paisa',
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     price : 10,
-    ordered : 0
+    ordered : 0,
+    imageUrl : '../images/dishes/colombian/bandeja-paisa.jpg'
   },
   {
     id: uuidv4(),
@@ -120,7 +161,8 @@ const dishes = [
     name : 'Fritanga',
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     price : 12,
-    ordered : 0
+    ordered : 0,
+    imageUrl : '../images/dishes/colombian/fritanga.jpeg'
   },
   {
     id: uuidv4(),
@@ -128,7 +170,8 @@ const dishes = [
     name : 'Arepas',
     description : 'Lorem ipsum dolor sit amet',
     price : 10,
-    ordered : 0
+    ordered : 0,
+    imageUrl : '../images/dishes/colombian/arepas.jpg'
   },
 
 ];
@@ -158,7 +201,8 @@ class DashboardFood extends React.Component{
     isOpenDishesDashboard : true,
     kindOfFood : dishesNationalities[0],
     viewOrderButton : true,
-    viewOrder : false
+    viewOrder : false,
+    totalItems : 0
   }
 
   handleOpenViews = (kindFood) => {
@@ -182,16 +226,19 @@ class DashboardFood extends React.Component{
   handleIncrementTotal = (ammount) => {
 
     this.setState({
-      total : this.state.total + ammount
+      total : this.state.total + ammount,
+      totalItems: this.state.totalItems + 1
     });
+
+
 
     
   }
 
-
   handleDecrementTotal = (ammount) => {
     this.setState({
-      total : this.state.total - ammount
+      total : this.state.total - ammount,
+      totalItems: this.state.totalItems - 1
     });
   }
 
@@ -227,9 +274,10 @@ class DashboardFood extends React.Component{
     });
   }
 
-  handleUpdateTotal = (ammount) => {
+  handleUpdateTotal = (ammount, items) => {
     this.setState({
-      total : this.state.total - ammount
+      total : this.state.total - ammount,
+      totalItems : this.state.totalItems - items
     });
   }
 
@@ -238,10 +286,29 @@ class DashboardFood extends React.Component{
 
     //console.log(this.state.kindOfFood);
     return(
-      <div>
-        <Total
-           total = {this.state.total} 
-         />
+      <div className='mainContainer'>
+        <div className='headerContainer'>
+          
+          <div className='totalItemsContainer'>
+              <button
+                className='shoppingButton'
+                onClick={this.handleOpenOrder}
+              ><i className="fas fa-shopping-cart"></i>
+              </button>
+
+              <TotalItems
+                totalItems = {this.state.totalItems}
+              />
+          </div>
+          
+          <div className='logoContainer'>
+            <img src='../images/logo.png' alt='logo' />
+          </div>
+          
+        </div>
+     
+        
+        <div className='countriesAndDishesContainer'>
         <FoodsList 
           isOpen={this.state.isOpenFoodList}
           openFoodList = {this.handleOpenViews}
@@ -255,13 +322,13 @@ class DashboardFood extends React.Component{
           decrementTotal = {this.handleDecrementTotal}
           openFoodList={this.handleOpenFoodList}
         />
+        </div>
 
         <ViewOrderButton 
           //viewOrderButton={this.state.viewOrderButton}
           total={this.state.total}
           handleOpenOrder={this.handleOpenOrder}
           viewOrderButton={this.state.viewOrderButton}
-          
         />
 
         <Order 
@@ -284,10 +351,11 @@ class ViewOrderButton extends React.Component{
   render(){
     if(this.props.total > 0 && this.props.viewOrderButton){
       return(
-        <div>
+        <div className= 'viewOrderContainer'>
           <button
+            className='viewOrderButton'
             onClick={this.props.handleOpenOrder}
-          >View Order {this.props.total} </button>
+          >View Order ${this.props.total} </button>
         </div>
       );
     } else {
@@ -306,14 +374,15 @@ class Order extends React.Component{
   }
 
   handleDeleteDish = (id) => {
-    
+    let items = 0;
 
     for(let i = 0; i < cloneDishes.length; i++){
       if(cloneDishes[i].id === id){
         
         let cantidad = cloneDishes[i].price * cloneDishes[i].ordered;
+        items = cloneDishes[i].ordered;
         cloneDishes[i].ordered = 0;
-        this.props.handleUpdateTotal(cantidad)
+        this.props.handleUpdateTotal(cantidad,items)
 
       }
     }
@@ -400,19 +469,24 @@ class Order extends React.Component{
 }
 
 
-
-
-
-class Total extends React.Component{
+class TotalItems extends React.Component{
   
 
   
   render(){
-    return(
-      <div>
-        {this.props.total}
-      </div>
-    );
+
+    if(this.props.totalItems > 0){
+      return(
+        <div className='totalItems'>
+          {this.props.totalItems}
+        </div>
+      );
+    } else {
+      return(
+        <div></div>
+      );
+    }
+    
   }
 }
 
@@ -439,7 +513,7 @@ class FoodsList extends React.Component{
       );
     } else{
       return(
-        null
+        <div></div>
       );
     }
   }
@@ -453,17 +527,44 @@ class Food extends React.Component{
       this.props.title
     );
   }
+
+  codeCountry = (country) => {
+    
+    
+    switch(country){
+      case 'mexican':
+        return 'MX';
+      case 'dominican':
+        return 'DR';
+      case 'ecuatorian':
+        return 'EC';
+      case 'peruvian':
+        return 'PE';
+      case 'colombian':
+        return 'CO';
+      default :
+        return ''
+    }
+  }
   
   render(){
 
+    let classCountry = 'countryTitle';
+
+    
+   
+
     return(
       <div className='foodContainer'>
-        <button
+        <button 
+        className={'btn hvr-forward background-'+ this.props.title.toLowerCase()}
         onClick={this.handleOpenFoodList}
-        >
-          {this.props.title}
+        >  {this.codeCountry(this.props.title.toLowerCase())}
         </button>
-      </div>
+        <div className={classCountry + ' ' + this.props.title.toLowerCase()}>
+          <h1>{this.props.title.toUpperCase()} </h1>
+        </div>
+      </div> 
     );
   }
 }
@@ -481,7 +582,7 @@ class DishesDashboard extends React.Component{
   render(){
     if(this.props.isOpen){
       return(
-        <div>
+        <div className='containerDishesList'>
           <DishesList 
             kindOfFood={this.props.kindOfFood}
             incrementTotal={this.props.incrementTotal}
@@ -525,6 +626,7 @@ class DishesList extends React.Component{
       ordered = {dish.ordered}
       incrementTotal = {this.props.incrementTotal}
       decrementTotal = {this.props.decrementTotal}
+      imageUrl = {dish.imageUrl}
       />
       
     ));
@@ -532,11 +634,8 @@ class DishesList extends React.Component{
 
   
       return(      
-        <div>
-              
-          {dishesList}
+              <div className='dishesList'>{dishesList} </div>
 
-        </div>
       );
     
   }
@@ -591,20 +690,58 @@ class Dish extends React.Component{
   
   render(){
     return(
-      <div>
-        {this.props.nationality}
-        {this.props.title}
-        {this.props.description}
-        {this.props.price} Ordered : 
-        {this.state.ordered} 
-        <button 
-          onClick= {this.increase}
-        >+</button>
-        <button
-          onClick = {this.decrease}
-        >
+      <div className='dish'>
         
-        -</button>
+        <div className='dishImage'>
+          <img 
+          src={this.props.imageUrl}
+          alt={this.props.title}
+          />
+          <div className='description'>
+            <p>{this.props.description}</p>
+          </div>
+        </div> 
+
+      <div className={'dishContent background-' + this.props.nationality}>
+
+      <div className='dishPrice'>
+        {this.props.price}
+      </div>
+
+      <div className='dishTitleDescription'>
+        <div className='dishTitle'>
+            {this.props.title}
+        </div>
+        {/*<div className='dishDescription'>
+             {this.props.description} 
+        </div> */}
+      </div>
+
+      <div className='dishUpDownButtons'>
+        
+        <div className='upButton'>
+          <button
+            className='btnUpDown' 
+            onClick= {this.increase}
+          >+</button>
+        </div>
+
+        <div className='ordered'>
+          {this.state.ordered}
+        </div>
+
+        <div className='downButton'>
+          <button
+            className='btnUpDown'
+            onClick = {this.decrease}
+          >-</button>
+        </div>
+
+      </div>
+
+      </div>
+
+
         
       </div>
     );
