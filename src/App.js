@@ -16,7 +16,7 @@ const dishes = [
     description : 'Sauced with salsa verde  made with white corn tortillas, filled with poached chicken.',
     price : 10,
     ordered : 0,
-    imageUrl : '/images/dishes/mexican/enchiladas.jpg'  
+    imageUrl : 'https://github.com/fr4nkydevelop3r/latinFoodApp/blob/master/public/images/dishes/mexican/enchiladas.jpg?raw=true'  
   },
     
   {
