@@ -31,11 +31,11 @@
 }
 
 .totalItemsContainer  .shoppingButton{
-    
     display: inline-block;
     text-align: center;
     outline: none;
     border: none;
+    background: #FFF;
 }
 
 .shoppingButton:active{

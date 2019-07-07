@@ -16,7 +16,7 @@ const dishes = [
     description : 'Sauced with salsa verde  made with white corn tortillas, filled with poached chicken.',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/mexican/enchiladas.jpg'  
+    imageUrl : '/images/dishes/mexican/enchiladas.jpg'  
   },
     
   {
@@ -26,7 +26,7 @@ const dishes = [
     description : 'Soup made with pork, hominy, and red chiles.',
     price : 12,
     ordered : 0,
-    imageUrl : '../images/dishes/mexican/pozole.jpg'  
+    imageUrl : '/images/dishes/mexican/pozole.jpg'  
   },
   {
     id: uuidv4(),
@@ -35,7 +35,7 @@ const dishes = [
     description : 'Crispy fried tacos filled with seasoned mashed potato.',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/mexican/tacos-dorados.jpg'  
+    imageUrl : '/images/dishes/mexican/tacos-dorados.jpg'  
   },
   {       
     id: uuidv4(),
@@ -44,7 +44,7 @@ const dishes = [
     description : 'Sauced with salsa verde  made with white corn tortillas, filled with poached chicken.',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/mexican/enchiladas.jpg'  
+    imageUrl : '/images/dishes/mexican/enchiladas.jpg'  
   },
     
   {
@@ -54,7 +54,7 @@ const dishes = [
     description : 'Soup made with pork, hominy, and red chiles.',
     price : 12,
     ordered : 0,
-    imageUrl : '../images/dishes/mexican/pozole.jpg'  
+    imageUrl : '/images/dishes/mexican/pozole.jpg'  
   },
   {
     id: uuidv4(),
@@ -63,7 +63,7 @@ const dishes = [
     description : 'Crispy fried tacos filled with seasoned mashed potato.',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/mexican/tacos-dorados.jpg'  
+    imageUrl : '/images/dishes/mexican/tacos-dorados.jpg'  
   },
   {
     id: uuidv4(),
@@ -72,7 +72,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/dominican/pernil.jpg'  
+    imageUrl : '/images/dishes/dominican/pernil.jpg'  
   },
   {
     id: uuidv4(),
@@ -81,7 +81,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     price : 12,
     ordered : 0,
-    imageUrl : '../images/dishes/dominican/estofado-de-mariscos.jpg'  
+    imageUrl : '/images/dishes/dominican/estofado-de-mariscos.jpg'  
   },
   {
     id: uuidv4(),
@@ -90,7 +90,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/dominican/moro.jpg'  
+    imageUrl : '/images/dishes/dominican/moro.jpg'  
   },
   {
     id: uuidv4(),
@@ -99,7 +99,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/ecuatorian/ceviche.jpeg'  
+    imageUrl : '/images/dishes/ecuatorian/ceviche.jpeg'  
   },
   {
     id: uuidv4(),
@@ -108,7 +108,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     price : 12,
     ordered : 0,
-    imageUrl : '../images/dishes/ecuatorian/llapingachos.jpg'  
+    imageUrl : '/images/dishes/ecuatorian/llapingachos.jpg'  
   },
   {
     id: uuidv4(),
@@ -117,7 +117,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/ecuatorian/uchumanga.jpg'  
+    imageUrl : '/images/dishes/ecuatorian/uchumanga.jpg'  
   },
   {
     id: uuidv4(),
@@ -126,7 +126,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/peruvian/lomo-saltado.jpg'  
+    imageUrl : '/images/dishes/peruvian/lomo-saltado.jpg'  
   },
   {
     id: uuidv4(),
@@ -135,7 +135,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     price : 12,
     ordered : 0,
-    imageUrl : '../images/dishes/peruvian/rocoto-relleno.jpeg'  
+    imageUrl : '/images/dishes/peruvian/rocoto-relleno.jpeg'  
   },
   {
     id: uuidv4(),
@@ -144,7 +144,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/peruvian/aji-de-gallina.jpg'
+    imageUrl : '/images/dishes/peruvian/aji-de-gallina.jpg'
   },
   {
     id: uuidv4(),
@@ -153,7 +153,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/colombian/bandeja-paisa.jpg'
+    imageUrl : '/images/dishes/colombian/bandeja-paisa.jpg'
   },
   {
     id: uuidv4(),
@@ -162,7 +162,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     price : 12,
     ordered : 0,
-    imageUrl : '../images/dishes/colombian/fritanga.jpeg'
+    imageUrl : '/images/dishes/colombian/fritanga.jpeg'
   },
   {
     id: uuidv4(),
@@ -171,7 +171,7 @@ const dishes = [
     description : 'Lorem ipsum dolor sit amet',
     price : 10,
     ordered : 0,
-    imageUrl : '../images/dishes/colombian/arepas.jpg'
+    imageUrl : '/images/dishes/colombian/arepas.jpg'
   },
 
 ];
