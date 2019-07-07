@@ -403,23 +403,34 @@ class Order extends React.Component{
     if(this.props.handleOpenOrder && this.props.total > 0){
       return(
 
-        <div>
-           <div>Your order!</div>
+        <div className='orderContainer'>
+           
+           <div className='atrasButtonContainer'>
+            <button 
+              className='atrasButton'                   
+              onClick={this.props.handleCloseOrder}
+            >
+              <i className="fas fa-arrow-left"></i>
+            </button>
+          </div>
+           
+           
+           <div className='orderTitle'>Your order!</div>
           
-          <div>
+          <div className='containerItemsList'>
             <ul>
               {
                 dishesOrdered.map((item,index) => {
                   return (
                   <li 
-                            key={index}>{item.name} X {item.ordered} .....{item.ordered * item.price} 
+                            key={index}> {item.ordered} {item.name} ${item.ordered*item.price} 
                   
                   
                   
                   <button
                     onClick={() => this.handleDeleteDish(item.id)}
-
-                  >Borrar</button>
+                    className='trashButton'  
+                  ><i className="far fa-trash-alt"></i></button>
                   
                   </li>  )
                 })
@@ -427,31 +438,30 @@ class Order extends React.Component{
             </ul>
           </div>
 
-          <div>
-            TOTAL: {this.props.total}
+          <div className='totalOrderContainer'>
+            Total: ${this.props.total}
           </div>
           
-          <div>
-            <button                    
-              onClick={this.props.handleCloseOrder}
-            >
-              Atras
-            </button>
-          </div>
+   
       </div>
 
       );
     } else if(this.props.total === 0 && this.props.handleOpenOrder) {
       return(
         
-        <div>        <div>Tu bolsa esta vacia!</div>
-        <div>
-        <button                    
-          onClick={this.props.handleCloseOrder}
-        >
-          Atras
-        </button>
-      </div>
+        <div className='emptyBagContainer'>        
+          
+          <div className='atrasButtonContainer'>
+            <button 
+              className='atrasButton'                   
+              onClick={this.props.handleCloseOrder}
+            >
+              <i className="fas fa-arrow-left"></i>
+            </button>
+          </div>
+
+          <div className='emptyBag'>Tu bolsa esta vacia!</div>
+
       </div>
 
       );
@@ -557,7 +567,7 @@ class Food extends React.Component{
     return(
       <div className='foodContainer'>
         <button 
-        className={'btn hvr-forward background-'+ this.props.title.toLowerCase()}
+        className={'btn background-'+ this.props.title.toLowerCase()}
         onClick={this.handleOpenFoodList}
         >  {this.codeCountry(this.props.title.toLowerCase())}
         </button>
