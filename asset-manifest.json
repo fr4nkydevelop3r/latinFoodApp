@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/latinFoodApp/static/css/main.c10c2ac0.chunk.css",
-    "main.js": "/latinFoodApp/static/js/main.473b27bf.chunk.js",
-    "main.js.map": "/latinFoodApp/static/js/main.473b27bf.chunk.js.map",
+    "main.js": "/latinFoodApp/static/js/main.17001943.chunk.js",
+    "main.js.map": "/latinFoodApp/static/js/main.17001943.chunk.js.map",
     "runtime~main.js": "/latinFoodApp/static/js/runtime~main.4cd6ca4d.js",
     "runtime~main.js.map": "/latinFoodApp/static/js/runtime~main.4cd6ca4d.js.map",
     "static/js/2.6b1cc622.chunk.js": "/latinFoodApp/static/js/2.6b1cc622.chunk.js",
     "static/js/2.6b1cc622.chunk.js.map": "/latinFoodApp/static/js/2.6b1cc622.chunk.js.map",
     "index.html": "/latinFoodApp/index.html",
-    "precache-manifest.0b10467d7149928605f9fe4e6a036917.js": "/latinFoodApp/precache-manifest.0b10467d7149928605f9fe4e6a036917.js",
+    "precache-manifest.7323e7a57bb1477abe93da5e6559f889.js": "/latinFoodApp/precache-manifest.7323e7a57bb1477abe93da5e6559f889.js",
     "service-worker.js": "/latinFoodApp/service-worker.js",
     "static/css/main.c10c2ac0.chunk.css.map": "/latinFoodApp/static/css/main.c10c2ac0.chunk.css.map"
   }
