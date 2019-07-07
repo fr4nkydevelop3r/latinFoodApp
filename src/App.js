@@ -302,7 +302,7 @@ class DashboardFood extends React.Component{
           </div>
           
           <div className='logoContainer'>
-            <img src='../images/logo.png' alt='logo' />
+            <img src='https://github.com/fr4nkydevelop3r/latinFoodApp/blob/master/public/images/logo.png?raw=true' alt='logo' />
           </div>
           
         </div>
